@@ -1,51 +1,43 @@
-
-Demand Forecasting for Retail Sales Using Prophet
-Overview
+# Demand-forecasting-project
 
 This project demonstrates how to forecast demand for retail products using time series analysis with the Prophet model. It aims to predict future demand to optimize inventory management, reduce stockouts, and improve customer satisfaction. The project involves data ingestion, data preprocessing, exploratory data analysis (EDA), and demand forecasting for top-selling SKUs. The goal is to provide businesses with insights on how to forecast and manage demand effectively.
 
-Why This Project?
+## Why This Project?
 
 This project aims to predict future demand for retail products to help optimize inventory management, prevent stockouts, and improve customer satisfaction. By leveraging time series forecasting techniques like Prophet, businesses can better plan for future demand, avoiding overstocking or understocking of products.
 
-Key Features
+## Key Features
 
-Ingests sales data from SQL Server: Data is extracted from a SQL Server database using Python and loaded into a Pandas DataFrame.
+- **Ingests sales data from SQL Server**: Data is extracted from a SQL Server database using Python and loaded into a Pandas DataFrame.
+- **Performs exploratory data analysis (EDA)**: The data is cleaned, aggregated, and visualized to understand sales trends and patterns.
+- **Forecasts demand using Prophet**: The Prophet model is used to predict future demand for top-selling products, capturing both trend and seasonal components.
 
-Performs exploratory data analysis (EDA): The data is cleaned, aggregated, and visualized to understand sales trends and patterns.
-
-Forecasts demand using Prophet: The Prophet model is used to predict future demand for top-selling products, capturing both trend and seasonal components.
-
-Results
+## Results
 
 The demand forecasting analysis focused on the top-selling SKU 23343. Here are the insights gained:
 
-Demand Trend: The selected SKU exhibited a declining trend, indicating reduced sales over time.
-
-Seasonality: The sales showed clear seasonal patterns, with spikes in demand during specific months.
-
-Forecasting: The model predicted a stable decline in future demand, with some seasonal fluctuations.
+- **Demand Trend**: The selected SKU exhibited a declining trend, indicating reduced sales over time.
+- **Seasonality**: The sales showed clear seasonal patterns, with spikes in demand during specific months.
+- **Forecasting**: The model predicted a stable decline in future demand, with some seasonal fluctuations.
 
 These insights can help businesses plan better for future demand, adjust inventory levels, and forecast more accurately.
 
-Files in the Repository
+## Files in the Repository
 
-demand_forecasting.py: Main Python script for data preparation, analysis, and demand forecasting.
+- `demand_forecasting.py`: Main Python script for data preparation, analysis, and demand forecasting.
+- `demand_forecasting.ipynb`: Jupyter notebook that replicates the steps in the Python script and provides interactive analysis and visualizations.
+- `plots/`: Folder containing the saved forecast and components plots for analysis.
+- `requirements.txt`: Lists all the dependencies required to run the project.
 
-demand_forecasting.ipynb: Jupyter notebook that replicates the steps in the Python script and provides interactive analysis and visualizations.
-
-plots/: Folder containing the saved forecast and components plots for analysis.
-
-requirements.txt: Lists all the dependencies required to run the project.
-
-Installation & Setup
+## Installation & Setup
 
 To run this project locally, follow these steps:
 
-1.Clone the repository:
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/demand-forecasting-project.git
+   cd demand-forecasting-project
 
-git clone https://github.com/yourusername/demand-forecasting-project.git
-cd demand-forecasting-project
 
 2.Install the required dependencies:
 
