@@ -43,8 +43,8 @@ To run this project locally, follow these steps:
 
 pip install -r requirements.txt
 
-Usage
-Option 1: Running the Python Script (.py)
+## Usage
+### Option 1: Running the Python Script (.py)
 
 To run the Python script for forecasting:
 
@@ -54,16 +54,16 @@ To run the Python script for forecasting:
 
 3.The script will load the sales data, preprocess it, upload it to SQL Server.
 
-Option 2: Using the Jupyter Notebook (.ipynb)
+### Option 2: Using the Jupyter Notebook (.ipynb)
 
 1. To install Jupyter in VS code .Go to extensions Write Jupyter and install it .
 
 2. Open the demand_forecasting.ipynb notebook and run the cells interactively to explore the data, perform EDA, and forecast demand.
 
-Contributions
+## Contributions
 
-Feel free to fork the repo, create a new branch, make improvements, and submit a pull request! Contributions are welcome.
+### Feel free to fork the repo, create a new branch, make improvements, and submit a pull request! Contributions are welcome.
 =======
-# Demand-forecasting-project
+## Demand-forecasting-project
 This project demonstrates how to forecast demand for products in a retail environment using time series analysis. The model uses Prophet to predict future demand for the top SKUs in the dataset. It ingests sales data, performs exploratory data analysis (EDA), and uses Prophet to forecast future demand with seasonality and trend components.
 >>>>>>> 00c5783a63e547588f6c082711cf9f72b2aad37c
