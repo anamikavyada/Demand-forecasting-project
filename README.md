@@ -1,3 +1,4 @@
+
 Demand Forecasting for Retail Sales Using Prophet
 Overview
 
@@ -70,3 +71,7 @@ Option 2: Using the Jupyter Notebook (.ipynb)
 Contributions
 
 Feel free to fork the repo, create a new branch, make improvements, and submit a pull request! Contributions are welcome.
+=======
+# Demand-forecasting-project
+This project demonstrates how to forecast demand for products in a retail environment using time series analysis. The model uses Prophet to predict future demand for the top SKUs in the dataset. It ingests sales data, performs exploratory data analysis (EDA), and uses Prophet to forecast future demand with seasonality and trend components.
+>>>>>>> 00c5783a63e547588f6c082711cf9f72b2aad37c
